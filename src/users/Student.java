@@ -2,7 +2,6 @@ package users;
 
 public class Student extends Title {
     private Integer level;
-    private Integer registry;
 
     public Integer getLevel() {
         return level;
@@ -11,12 +10,7 @@ public class Student extends Title {
     public void setLevel(Integer level) {
         this.level = level;
     }
-    public Integer getRegistry() {
-        return registry;
-    }
-    public void setRegistry(Integer registry) {
-        this.registry = registry;
-    }
+    
 
     public String academicTitle(Integer level){
         String academicTitle;
@@ -31,9 +25,7 @@ public class Student extends Title {
     }
     
     public String toString() {
-        return "USER: "+ getName() + " - EMAIL: " + getEmail() + " - TITLE: " + academicTitle(level) + "- REGISTRY: " + registry;
+        return "USER: "+ getName() + " - EMAIL: " + getEmail() + " - TITLE: " + academicTitle(level) + "- REGISTRY: " + getRegistry();
     }
-
-    
     
 }

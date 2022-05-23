@@ -5,6 +5,7 @@ import exceptions.emailInvalidException;
 public class Title extends User{
     private String name;
     private String email;
+    private Integer registry;
 
     public String getName() {
         return name;
@@ -25,6 +26,13 @@ public class Title extends User{
             throw new domineException(email);
         } 
         this.email = email;
+    }
+    
+    public Integer getRegistry() {
+        return registry;
+    }
+    public void setRegistry(Integer registry) {
+        this.registry = registry;
     }
 
     public String toString() {
