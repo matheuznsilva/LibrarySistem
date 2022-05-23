@@ -1,11 +1,12 @@
 /************************************************
 *                                               *
-* Autor: Matheus Nascimento e Silva             *
-* Ambiente..: Ubuntu 20.04                      *
-* Compilador: GCC 9.4.0                         *
-* Objetivo..: Sistema de gerenciamento de       *
-* biblioteca em JAVA                            *
+* ---------- Library system on JAVA ----------- *
 *                                               *
-* ------- TODOS OS DIREITOS RESERVADOS -------- *
+* Author: Matheus Nascimento e Silva            *
+* OS.: Ubuntu 22.04 LTS                         *
+* IDE: VsCode 1.67.2                            *
+*                                               *
+*                                               *
+* -------------- RIGHTS RESERVED -------------- *
 *                                               *
 *************************************************/
